@@ -44,7 +44,7 @@ class Game{
                 form.hide();
 
                 Player.getPlayerInfo();
-                 image(back_img, 0, 0, 1000, 800);
+                 image(back_img, 0, 0, 1700, 800);
                  var x =100;
                  var y=200;
                  var index =0;
@@ -80,7 +80,7 @@ class Game{
                  }
                 
                 
-                ground = createSprite(500,600,1000,10);
+                ground = createSprite(500,600,1700,10);
                 ground.visible = true;            
 
                 if (keyIsDown(RIGHT_ARROW) && player.index !== null) {
