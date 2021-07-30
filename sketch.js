@@ -28,7 +28,7 @@ function preload(){
   waterGroup = new Group();
 }
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(1700, 800);
   database = firebase.database();
   game = new Game();
   game.getState();
