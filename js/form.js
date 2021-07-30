@@ -32,7 +32,7 @@ class Form{
         this.reset.style('height', '30px');
         this.reset.style('background', 'lightpink');
 
-        this.hif.html("Try to save as much water as you can \n Competete with friends to make more points. \n try not to waste water ,Show your responsiblity");
+        this.hif.html("Try to save as much water as you can  Competete with friends to make more points.");
         this.hif.position(750,100);
         this.hif.style('font-size', '30px');
         this.hif.style('colour','green')
